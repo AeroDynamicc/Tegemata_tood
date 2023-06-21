@@ -7,7 +7,7 @@ aken.geometry('128x125')
 aken.maxsize(width=200, height=200)
 
 #textbox
-laabel = Label(aken,text='Mis on faili nimi (.txt)')
+laabel = Label(aken,text='mis on faili nimi (.txt)')
 laabel.grid(row=0,column=1, padx=2)
 
 # 'Entry' moodul on siis selleks, et kasutaja kirjutaks faili sinna kirjakasti.
@@ -15,11 +15,11 @@ entri = Entry(aken)
 entri.grid(row=1,column=1,columnspan=2,padx=1,pady=2)
 
 # 'Laabel2' on tekstikast, et saaks 'git' funktsioonis muuta str vaartust.
-laabel2 = Label(aken,text='Koik myndid:')
+laabel2 = Label(aken,text='koik myndid:')
 laabel2.grid(row=3,column=1)
 
 # 'Laabel3' juures on sama asi.
-laabel3 = Label(aken,text='Myndivaartus:')
+laabel3 = Label(aken,text='myndivaartus:')
 laabel3.grid(row=4,column=1)
 
 
